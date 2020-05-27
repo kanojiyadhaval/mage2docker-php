@@ -64,7 +64,6 @@ RUN \
     pdo_mysql \
     mysqli \
     mbstring \
-    mcrypt \
     hash \
     simplexml \
     xsl \
