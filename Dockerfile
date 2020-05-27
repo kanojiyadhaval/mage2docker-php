@@ -28,7 +28,7 @@ RUN \
   autoconf \
   libbz2-dev \
   libltdl-dev \
-  libpng12-dev \
+  libpng-dev \
   libjpeg62-turbo-dev \
   libfreetype6-dev \
   libxpm-dev \
@@ -39,7 +39,7 @@ RUN \
 
   re2c \
   libpng++-dev \
-  libpng3 \
+  libpng-dev \
   libvpx-dev \
   zlib1g-dev \
   libgd-dev \
@@ -54,7 +54,7 @@ RUN \
   wget \
   librabbitmq-dev \
   libzip-dev \
-  libzip2
+  libzip4
 
 # http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html
 RUN \
