@@ -97,3 +97,7 @@ RUN cd /tmp/ && git clone https://github.com/xdebug/xdebug.git \
     && touch /usr/local/etc/php/ext-xdebug.ini \
     && rm -r /tmp/xdebug \
     && apt-get purge -y --auto-remove
+    
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer    
+    
