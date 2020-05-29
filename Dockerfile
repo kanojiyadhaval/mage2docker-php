@@ -72,8 +72,7 @@ RUN \
     bcmath \
     json \
     opcache \
-    zip \
-    mysqli \
+    zip
 
 # Make sure the volume mount point is empty
 RUN rm -rf /var/www/html/*
