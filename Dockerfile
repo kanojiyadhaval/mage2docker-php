@@ -36,6 +36,7 @@ RUN \
   libicu-dev \
   libmcrypt-dev \
   libxslt1-dev \
+  php-mysqli \
 
   re2c \
   libpng++-dev \
