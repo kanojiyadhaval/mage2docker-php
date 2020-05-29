@@ -36,7 +36,6 @@ RUN \
   libicu-dev \
   libmcrypt-dev \
   libxslt1-dev \
-  php-mysqli \
 
   re2c \
   libpng++-dev \
@@ -73,7 +72,8 @@ RUN \
     bcmath \
     json \
     opcache \
-    zip
+    zip \
+    mysqli \
 
 # Make sure the volume mount point is empty
 RUN rm -rf /var/www/html/*
