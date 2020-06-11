@@ -21,6 +21,7 @@ RUN \
     posix
 
 # Configure PHP
+
 # php module build deps
 RUN \
   apt-get install -y \
