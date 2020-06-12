@@ -101,4 +101,8 @@ RUN cd /tmp/ && git clone https://github.com/xdebug/xdebug.git \
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer   
 
+# Install Mailhog
+RUN wget https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64 \
+    && sudo chmod +x mhsendmail_linux_amd64
+    && sudo mv mhsendmail_linux_amd64 /usr/local/bin/mhsendmail
     
